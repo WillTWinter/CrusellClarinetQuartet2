@@ -149,7 +149,7 @@ violin_iv = \relative c'' {
   bes a c bes a g f ees | ees d g f f ees d c | bes4 r | R2*5 |
   
   g'4^\solo\p aes16( g fis g) | bes8. ees,16 f( ees d ees) | f8-. f-. g16( f ees f) | g4( ees8) ees |
-  f f g16( f ees f) | g8. ees16 f-.( g-. aes-. bes-.) | c8.\fz bes16  aes( g aes c) | bes8. ees,16 f g aes bes |
+  f f g16( f ees f) | g8. ees16 f-.( g-. aes-. bes-.) | c8.\fz bes16  aes( g aes c) | bes8. ees,16 f-. g-. aes-. bes-. |
   c8.\fz bes16  aes g aes c | bes4~ bes16 ees,-. f-. g-. | aes8-. aes(\tcresc a) a( | bes)\< bes( c) c( |
   ees,4\!) \grace g32 f16( ees f g) | ees4 r | R2*3 |
   
