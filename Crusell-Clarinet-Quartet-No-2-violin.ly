@@ -1,7 +1,6 @@
 \version "2.24.0"
 
 #(set-default-paper-size "a4")
-%#(set-global-staff-size 18)
 
 \header {
   title = "Clarinet Quartet No. 2"
@@ -10,25 +9,17 @@
 }
 
 \include "global.ly"
-
-
 \include "violin.ly"
-
-
 
 \score {
   \header {
     opus = ##f
   }
-    \new GrandStaff <<
-    
-    \new Staff \with {
-      instrumentName = "Violin"
-      shortInstrumentName = "Vn"
-    } << 
-      \markings_i
-      \violin_i 
-      >>
+  \new Staff \with {
+    instrumentName = "Violin"
+  } << 
+    \markings_i
+    \violin_i 
   >>
 }
 
@@ -37,15 +28,11 @@
     piece = "Menuetto"
     opus = ##f
   }
-    \new GrandStaff <<
-    
-    \new Staff \with {
-      instrumentName = "Violin"
-      shortInstrumentName = "Vn"
-    } << 
-      \markings_ii
-      \violin_ii
-      >>
+  \new Staff \with {
+    instrumentName = "Violin"
+  } << 
+    \markings_ii
+    \violin_ii
   >>
 }
 
@@ -54,15 +41,12 @@
     piece = "Pastoralle" 
     opus = ##f
   }
-    \new GrandStaff <<
-    
-    \new Staff \with {
-      instrumentName = "Violin"
-      shortInstrumentName = "Vn."
-    } << 
-      \markings_iii
-      \violin_iii
-      >>
+  \new Staff \with {
+    instrumentName = "Violin"
+    shortInstrumentName = "Vn."
+  } << 
+    \markings_iii
+    \violin_iii
   >>
 }
 
@@ -71,15 +55,10 @@
     piece = "Rondo"
     opus = ##f
   }
-    \new GrandStaff <<
-    
-    \new Staff \with {
-      instrumentName = "Violin"
-      shortInstrumentName = "Vn"
-    } << 
-      \markings_iv
-      \violin_iv
-      >>
-
+  \new Staff \with {
+    instrumentName = "Violin"
+  } << 
+    \markings_iv
+    \violin_iv
   >>
 }

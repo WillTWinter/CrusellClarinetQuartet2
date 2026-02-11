@@ -1,7 +1,6 @@
 \version "2.24.0"
 
 #(set-default-paper-size "a4")
-%#(set-global-staff-size 18)
 
 \header {
   title = "Clarinet Quartet No. 2"
@@ -10,7 +9,6 @@
 }
 
 \include "global.ly"
-
 
 clarinet_i = \relative c'' {
   \clef treble  
@@ -42,17 +40,14 @@ clarinet_iv = \relative c'' {
 \include "viola.ly"
 \include "cello.ly"
 
-
-
 \score {
   \header {
     opus = ##f
   }
-    \new GrandStaff <<
-
+  \new GrandStaff <<
     \new Staff \with {
       instrumentName = "Clarinet"
-      midiInstrument = "clarinet"
+      shortInstrumentName = "Cl"
       instrumentTransposition = bes'
     } << 
       \markings_i 
@@ -65,18 +60,18 @@ clarinet_iv = \relative c'' {
     } << 
       \markings_i
       \violin_i 
-      >>
+    >>
 
     \new Staff \with {
       instrumentName = "Viola"
-      shortInstrumentName = "Va."
+      shortInstrumentName = "Va"
     } << 
       \markings_i
       \viola_i 
     >>
       
     \new Staff \with {
-      instrumentName = "Violoncelli"
+      instrumentName = "Violoncello"
       shortInstrumentName = "Vc."
     } << 
       \markings_i
@@ -85,16 +80,16 @@ clarinet_iv = \relative c'' {
   >>
 }
 
+\pageBreak
 \score {
   \header {
     piece = "Menuetto"
     opus = ##f
   }
-    \new GrandStaff <<
-
+  \new GrandStaff <<
     \new Staff \with {
       instrumentName = "Clarinet"
-      midiInstrument = "clarinet"
+      shortInstrumentName = "Cl"
       instrumentTransposition = bes'
     } << 
       \markings_ii 
@@ -107,19 +102,19 @@ clarinet_iv = \relative c'' {
     } << 
       \markings_ii
       \violin_ii
-      >>
+    >>
 
     \new Staff \with {
       instrumentName = "Viola"
-      shortInstrumentName = "Va."
+      shortInstrumentName = "Va"
     } << 
       \markings_ii
       \viola_ii 
     >>
       
     \new Staff \with {
-      instrumentName = "Violoncelli"
-      shortInstrumentName = "Vc."
+      instrumentName = "Violoncello"
+      shortInstrumentName = "Vc"
     } << 
       \markings_ii
       \cello_ii 
@@ -127,16 +122,16 @@ clarinet_iv = \relative c'' {
   >>
 }
 
+\pageBreak
 \score {
   \header {
     piece = "Pastoralle" 
     opus = ##f
   }
-    \new GrandStaff <<
-
+  \new GrandStaff <<
     \new Staff \with {
       instrumentName = "Clarinet"
-      shortInstrumentName = "Cl."
+      shortInstrumentName = "Cl"
       instrumentTransposition = bes'
     } << 
       \markings_iii
@@ -145,23 +140,23 @@ clarinet_iv = \relative c'' {
     
     \new Staff \with {
       instrumentName = "Violin"
-      shortInstrumentName = "Vn."
+      shortInstrumentName = "Vn"
     } << 
       \markings_iii
       \violin_iii
-      >>
+    >>
 
     \new Staff \with {
       instrumentName = "Viola"
-      shortInstrumentName = "Va."
+      shortInstrumentName = "Va"
     } << 
       \markings_iii
       \viola_iii 
     >>
       
     \new Staff \with {
-      instrumentName = "Violoncelli"
-      shortInstrumentName = "Vc."
+      instrumentName = "Violoncello"
+      shortInstrumentName = "Vc"
     } << 
       \markings_iii
       \cello_iii 
@@ -169,16 +164,16 @@ clarinet_iv = \relative c'' {
   >>
 }
 
+\pageBreak
 \score {
   \header { 
     piece = "Rondo"
     opus = ##f
   }
-    \new GrandStaff <<
-
+  \new GrandStaff <<
     \new Staff \with {
       instrumentName = "Clarinet"
-      shortInstrumentName = "Cln."
+      shortInstrumentName = "Cl"
       instrumentTransposition = bes'
     } << 
       \markings_iv 
@@ -191,11 +186,11 @@ clarinet_iv = \relative c'' {
     } << 
       \markings_iv
       \violin_iv
-      >>
+    >>
 
     \new Staff \with {
       instrumentName = "Viola"
-      shortInstrumentName = "Va."
+      shortInstrumentName = "Va"
     } << 
       \markings_iv
       \viola_iv 
@@ -203,7 +198,7 @@ clarinet_iv = \relative c'' {
       
     \new Staff \with {
       instrumentName = "Violoncelli"
-      shortInstrumentName = "Vc."
+      shortInstrumentName = "Vc"
     } << 
       \markings_iv
       \cello_iv 
