@@ -10,32 +10,7 @@
 
 \include "global.ly"
 
-clarinet_i = \relative c'' {
-  \clef treble  
-  \transposition bes'
-  \key f \major
-  s1^\markup{"In Bb"}
-  % Write notes at written pitch (i.e. as they appear on the page)
-} 
-clarinet_ii = \relative c'' {
-  \clef treble
-  \transposition bes'
-  \key f \major
-  s1^\markup{"In Bb"}
-}
-clarinet_iii = \relative c'' {
-  \clef treble
-  \transposition bes'
-  \key f \major
-  s1^\markup{"In Bb"}
-}
-clarinet_iv = \relative c'' {
-  \clef treble
-  \transposition bes'
-  \key f \major
-  s1^\markup{"In Bb"}
-}
-
+\include "clarinet.ly"
 \include "violin.ly"
 \include "viola.ly"
 \include "cello.ly"
