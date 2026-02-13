@@ -58,5 +58,7 @@ paper_fields = \paper {
 
 
 score_layout = \layout {
+  % Only used in per-instrument parts - combined score defines layout explicitly
   indent = 0\mm
+  \compressEmptyMeasures
 }
