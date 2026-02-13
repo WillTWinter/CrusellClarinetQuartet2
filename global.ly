@@ -57,8 +57,7 @@ markings_i = {
 
   \time 2/2 \tempo "Allegro molto agitato" 2=80
   
-  \repeat volta 2 {s1 * 78 \bar ":|]"}
-  % \mark \default
+  \repeat volta 2 {s1 * 78}
   s1 * 97\bar "|."
 }
 
@@ -67,12 +66,12 @@ markings_ii = {
 
   \time 3/4
   \repeat segno 2 {
-    \repeat volta 2 {\partial 4 s4 | s2. * 11 | s2 \bar ":|][|:"}
-    \repeat volta 2 {s4 | s2. * 31 | s4 s\fine \bar ":|]"\barFermata}
+    \repeat volta 2 {\partial 4 s4 | s2. * 11 | s2 }
+    \repeat volta 2 {s4 | s2. * 31 | s4 s\fine \barFermata}
      
     % TRIO
-    \repeat volta 2 {\sectionLabel "Trio" s4 | s2. * 7 | s2 \bar ":|][|:"}
-    \repeat volta 2 {s4 | s2. * 11 | s4 s\fine \bar ":|]"\barFermata }
+    \repeat volta 2 {\sectionLabel "Trio" s4 | s2. * 7 | s2 }
+    \repeat volta 2 {s4 | s2. * 11 | s4 s\fine \barFermata }
   }
 }
 
@@ -82,7 +81,7 @@ markings_iii = {
   \time 6/8 \tempo "un poco Allegretto"
   \partial 8 
   s8 s2. * 24
-  \repeat volta 2 { \bar "[|:" \grace{s8} s2. * 8 \bar ":|]"}
+  \repeat volta 2 { \grace{s8} s2. * 8 }
   s2. * 60 \bar "|."
 }
 
@@ -92,10 +91,10 @@ markings_iv = {
   \time 2/4 \tempo "Allegro"
   \partial 8 s8 | s2 * 23 | s4.
   
-  \repeat volta 2 {\bar "[|:" s8 | s2*7 | s4.\bar ":|][|:"}
+  \repeat volta 2 { s8 | s2*7 | s4.}
   \repeat volta 2 { s8 | s2*7 | 
     \alternative {
-      \volta 1 {s4.\bar ":|]"}
+      \volta 1 {s4.}
       \volta 2 {s2}
     }
   }
