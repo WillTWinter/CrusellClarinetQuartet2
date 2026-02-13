@@ -1,4 +1,5 @@
 \version "2.24.0"
+% Markings/functions used in music, including repeats, barlines, tempo markings etc
 
 % Text markings
 pizz = \markup{\small \italic pizz.}

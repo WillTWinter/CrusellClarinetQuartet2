@@ -1,23 +1,20 @@
 \version "2.24.0"
 
-#(set-default-paper-size "a4")
-
-\header {
-  title = "Clarinet Quartet No. 2"
-  opus = "Opus 4"
-  composer = "Crusell"
-}
-
+\include "layout.ly"
 \include "global.ly"
 \include "clarinet.ly"
 
+\paper_fields
+\header_fields
+\header {
+   instrument = \clarinetName
+}
+
 \score {
-  \header {
-    opus = ##f
-  }
+  \score_header_i
+  \score_layout
   \new Staff \with {
-    instrumentName = "Clarinet"
-    instrumentTransposition = bes'
+    instrumentTransposition = \clarinetTransposition
   } << 
     \markings_i 
     \clarinet_i
@@ -26,13 +23,10 @@
 
 \pageBreak
 \score {
-  \header {
-    piece = "Menuetto"
-    opus = ##f
-  }
+  \score_header_ii
+  \score_layout
   \new Staff \with {
-    instrumentName = "Clarinet"
-    instrumentTransposition = bes'
+    instrumentTransposition = \clarinetTransposition
   } << 
     \markings_ii 
     \clarinet_ii
@@ -41,13 +35,10 @@
 
 \pageBreak
 \score {
-  \header {
-    piece = "Pastoralle" 
-    opus = ##f
-  }
+  \score_header_iii
+  \score_layout
   \new Staff \with {
-    instrumentName = "Clarinet"
-    instrumentTransposition = bes'
+    instrumentTransposition = \clarinetTransposition
   } << 
     \markings_iii
     \clarinet_iii
@@ -56,13 +47,10 @@
 
 \pageBreak
 \score {
-  \header { 
-    piece = "Rondo"
-    opus = ##f
-  }
+  \score_header_iv
+  \score_layout
   \new Staff \with {
-    instrumentName = "Clarinet"
-    instrumentTransposition = bes'
+    instrumentTransposition = \clarinetTransposition
   } << 
     \markings_iv 
     \clarinet_iv

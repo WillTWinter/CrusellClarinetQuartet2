@@ -1,63 +1,49 @@
 \version "2.24.0"
 
-#(set-default-paper-size "a4")
-
-\header {
-  title = "Clarinet Quartet No. 2"
-  opus = "Opus 4"
-  composer = "Crusell"
-}
-
+\include "layout.ly"
 \include "global.ly"
 \include "violin.ly"
 
+\paper_fields
+\header_fields
+\header {
+   instrument = \violinName
+}
+
 \score {
-  \header {
-    opus = ##f
-  }
-  \new Staff \with {
-    instrumentName = "Violin"
-  } << 
+  \score_header_i
+  \score_layout
+  \new Staff 
+  << 
     \markings_i
     \violin_i 
   >>
 }
 
 \score {
-  \header {
-    piece = "Menuetto"
-    opus = ##f
-  }
-  \new Staff \with {
-    instrumentName = "Violin"
-  } << 
+  \score_header_ii
+  \score_layout
+  \new Staff<< 
     \markings_ii
     \violin_ii
   >>
 }
 
 \score {
-  \header {
-    piece = "Pastoralle" 
-    opus = ##f
-  }
-  \new Staff \with {
-    instrumentName = "Violin"
-    shortInstrumentName = "Vn."
-  } << 
+  \score_header_iii
+  \score_layout
+  \new Staff
+  << 
     \markings_iii
     \violin_iii
   >>
 }
 
 \score {
-  \header { 
-    piece = "Rondo"
-    opus = ##f
-  }
-  \new Staff \with {
-    instrumentName = "Violin"
-  } << 
+  \score_header_iv
+  \score_layout
+  \new Staff 
+  << 
     \markings_iv
     \violin_iv
   >>
