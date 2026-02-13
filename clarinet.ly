@@ -18,7 +18,7 @@ clarinet_i = \relative c'' {
   cis2( d4) c( | bes) c( a) bes~ | bes a \appoggiatura g8 f4 e8 d | c( b c d c bes a g) |
   f4 r r2 | R1 * 3| 
   
-  r2 r4 c'''8(\p a) | g4 \appoggiatura fis16 g4 \appoggiatura fis16 g4 a8( g) | f4.( a8 g f e d) |
+  r2 r4 c'''8(\p a) | g4 \appoggiatura fis16 g4 \appoggiatura fis16 g4 a8( g) | f!4.( a8 g f e d) |
   c4-. g'( e) c'( | a8) r c,( d e f g e) | f8( c) d-. e-. f-. g-. a-. bes-. | a( c) f,-. a-. d,-. g( bes a) | 
   g( bes) e,-. g-. c,-. f( a g) | f( a) d,-. f-. bes,-. e( g f) | e4 r bes'2\sfz | bes8(\> a) a( g) g( f) f( e)\! |
   e( d) d( c) c( b) f'-. d-. | c( b) f'-.\fz d-. c( b) f'-.\fz d-. | c( b) f'-. d-. f-. c-. f-. b,-. |
@@ -30,13 +30,13 @@ clarinet_i = \relative c'' {
   R1 | r2 r4 f\p | bes2.( d4) | c2.( ees4) | f,2 a8( c f ees) | ees2( d4) f | g2( f4) bes-. | ees,2( d4) f4~\f |
   f8 ees g f ees d c bes | a4-. f'-. r4\fermata f,\p |
   
-  bes2.( d4) | f2( e4) bes'4~ | bes8 a c bes a g f ees | ees2( d4) f-. | b,2( c4) ees-. | a,2( bes4) r | R1*2 |
+  bes2.( d4) | f2( e4) bes'4~ | bes8 a c bes a g f ees | ees2( d4) f-. | b,2( c4) ees-. | a,2( bes!4) r | R1*2 |
   
   r8 d8( ees d) ees2~ | ees8 ees( d cis) d2~ | d8 d( ees d) ees2~ | ees8\< g( f ees) ees( d) d( cis) | d4\! r c'2\f |
   a4-. fis-. d( e8 f ) | g4 r bes2\f | g4-. d-. bes( c8 d) | ees4 r r2 |
   ees4.(\p ees8 g4 bes) | bes4~ \triplet {bes8 c bes} a2~ | a4~ \triplet{a8 bes a} g2~ | 
   g4~ \triplet{ g8 a g} fis4( \triplet{fis8 g a)} | \triplet{g8( fis g) a( g a)} bes4 \triplet {e,8( d e)
-  f( e f) g( f g)} a4 a | a2.(\< gis4 | a)\! r a4.(\sfz g8) |
+  f!( e f) g( f g)} a4 a | a2.(\< gis4 | a)\! r a4.(\sfz g!8) |
   \appoggiatura g8 f4( e8 f) \appoggiatura e8 d4( cis8 d) | cis4 r a'4.(\sfz g8) |
   \appoggiatura g8 f4( e8 f) \appoggiatura e8 d4( cis8 d) | cis4 r r2 | R1 | r2 r4\fermata a\p |
   
@@ -62,10 +62,10 @@ clarinet_i = \relative c'' {
   d4.( f8) \appoggiatura g8 f4( e8 d) | cis4( e a, cis) | d8( f e) d-. cis-. e( a g) |
   f( a) f-. d-. cis-. e( a g) | f( a) d,-. f-. bes-. e,( g f) | e( g) cis,-. e-. a-. d,( f e) |
   d( f) bes,-. d-. g-. cis,( e d) | cis8 r e,( g) bes( cis e-. g-.) | bes-. r fis( g) a( bes) fis( g) |
-  e( f) cis( d) a( bes g) e | d( f a d) f(\tcresc a d cis) | c( b bes a aes g fis f) | 
+  e( f!) cis( d) a( bes g) e | d( f a d) f(\tcresc a d cis) | c( b bes a aes g fis f) | 
   e1\f\startTrillSpan | e | d4\stopTrillSpan r r2 | R1*6 |
   
-  r2 r4 d\p | f2(^\dol ees4 g) | bes( cis,\< d e) | f-.\f r cis-. r | d r r a'8(\p f) |
+  r2 r4 d\p | f2(^\dol ees4 g) | bes( cis,\< d e!) | f-.\f r cis-. r | d r r a'8(\p f) |
   e4-. e-. \grace f16 e8( d e f) | d4 r r a'8( f) | e4 e \grace f16 e8( d e f) | d4 r r a'8(\pp f) | 
   e4 e \grace f16 e8( d e f) | d4 r bes2(^\smorz | a4) r g2( | f4) r e2( | d4) r d r | d2 r
   
@@ -106,7 +106,7 @@ clarinet_ii = \relative c'' {
   \triplet {
     f,,8 a c f a c f a c | bes-. g( fis) g-. e( c) bes-. g-. e-. |
     c e g bes c e g bes d | c-. a( gis) a-. f( e) f-. c-. a-. |
-    f a c f a g f e ees | d d' c bes a g f e d | c f a c a f bes g e |
+    f a c f a g f e ees | d d' c bes a g f e! d | c f a c a f bes g e |
   }
   f4 r
 }
@@ -122,7 +122,7 @@ clarinet_iii = \relative c'' {
   e( f d) c\) r f( | e f d c) r bes'(\fz | a\< bes g f4) d8\! |  c(\p bes g f) r c' |
   g'4 g8 \grace f32 e8( d c) | f( g a) g-. c(\fz bes) | a( g f) e8~( e16. f32 d16. e32) | c8 c c c4 r8 |
   r8 r a'( c bes) r | r r g( bes a) r | r r c-. c( bes a) | g-.\> g16.( a32 g16. a32) g4( gis8) |
-  a4\p a8 \grace a32 g8( f g) | f4( a16 g f8) r c | a'4 a8 \grace a32 g8( f g) | f4( a16 g f8) r f( |
+  a4\p a8 \grace a32 g!8( f g) | f4( a16 g f8) r c | a'4 a8 \grace a32 g8( f g) | f4( a16 g f8) r f( |
   e f d) c r f(| e f d) c r bes'\f( | a bes g) f4 d8~\p | d16( c bes8 g) f4 r8 |
   
   % REPEAT
@@ -130,14 +130,14 @@ clarinet_iii = \relative c'' {
   
   % REPEAT
   R2. *3 | r4 r8 r16 g-.\p a-. b-. c-. d-. | e( c) g-. e-. c d( e f g a b c) |
-  d( e f g a g) e-. c( d e f g) | gis( a b c gis a) e( f) cis( d f a) c,4.( b4) r8 |
+  d( e f g a g) e-. c( d e f g) | gis( a b c gis a) e( f) cis( d f a) c,!4.( b4) r8 |
   c'4.~\f c4 c8 | b( c d) c16( b a g f e) | d\trill(\p cis d e f e) d\trill( cis d a' e f) |
-  d\trill( cis d e f gis b\tcresc a g f e d) | c( b a g f' e) d( c a' g f e) | c'( b bes a gis g fis f e g f d) |
+  d\trill( cis d e f gis b\tcresc a g f e d) | c!( b a g f' e) d( c a' g f e) | c'( b bes a gis g fis f e g f d) |
   d2.\trill | c4 r8 r4. | R2. * 3
   
   r4. r4 c8\p | bes'4 bes8 \grace bes32 a8( g f) | e( f g) c,( d e)  |f8-. \grace g32 f16( e f g) aes4\fz b,8 | 
   c\tdecresc c c c( d16 e f g) |
-  a4\p a8 \grace a32 g8( f g) | f4( a16 g f8) r c | a'4 a8\< \grace a32 g8 fis16\> g a g\! | f4 a16( g f8) r f( |
+  a4\p a8 \grace a32 g8( f g) | f4( a16 g f8) r c | a'4 a8\< \grace a32 g8 fis16\> g a g\! | f!4 a16( g f8) r f( |
   e f d) c r f(| e f d) c r bes'\f( | a\< bes g) f4\!\fz d8 | c(\p bes g) f r c' |
    g'8.( fis16 a g) f( e d) c-. d-. e-. | f( c b c d a') g-. c,( e g c bes) | bes( a g f e f) e( g c, e d b) |
    c4 r8 r4 c8\p | a'4 a8 \grace a32 g8( f g) | f8-. f16( e g e) f8-. f16( e g e) | f4.( g8\tcresc f e) |
@@ -170,12 +170,12 @@ clarinet_iv = \relative c'' {
   d4 r4 | % SECOND TIME BAR
   
   R2*16 |
-  a'4.(\p^\dol gis8) | a8.( gis16 a8. gis16) | a4 bes16( a gis a) | c8. f,16 g( f e f) |
+  a'4.(\p^\dol gis8) | a8.( gis16 a8. gis16) | a4 bes16( a gis a) | c8. f,16 g!( f e f) |
   g8 g a16( g f g ) | a4( f8) f | g8 g a16( g f g ) | a8.( f16) g( a bes c) | d8. c16 bes( a bes) g-. |
   f8. f16 g( a bes c) | d8. c16 bes( a bes) g-. | f4 r | R2*3 |
   
-  r8 c16(\p b) c( e) d( f) | e( g) f( a) g( bes) a( c) | bes( a g f) e( g) f( a) |
-  g( f e d c b d c) | bes( a g f) e( g) f( a) | g(f) e-. d-. c-. bes-. a-. g-. |
+  r8 c16(\p b) c( e) d( f) | e( g) f( a) g( bes!) a( c) | bes( a g f) e( g) f( a) |
+  g( f e d c b d c) | bes!( a g f) e( g) f( a) | g(f) e-. d-. c-. bes-. a-. g-. |
   
   \repeat unfold 2 {f( a) c-. a-. f'( c) a-. c-. |}
   bes( c) e-. c-. g( c) e,( c') | f,( a) c-. f-. a( f) c-. a-. | bes( c) e-. c-. g( c) e,-. c'-. |  
@@ -183,9 +183,9 @@ clarinet_iv = \relative c'' {
   
   r4 r8 a''8\f | a4.( g8) | f16( g) e( f) d8 a' | a4.( g8) | f16( g) e( f) d8 r | R2*2 |
   r8 c'4(\fz bes8 | a g f ees) | d r r4 | R2 | r8 aes'4(\p g8 | f ees d c) | bes-. aes'4( g8 | 
-  f ees d c) | bes( c d ees | e\tcresc f fis g) | 
+  f ees d c) | bes( c d ees | e!\tcresc f fis g) | 
   
-  aes2~\< | aes2\> | a4.(\pp g8) | f8-. f-. e16( f g a) | bes4.( a8 | g f e f) | f4.(\fz e8 | d f e d) |
+  aes2~\< | aes2\> | a!4.(\pp g8) | f8-. f-. e16( f g a) | bes4.( a8 | g f e f) | f4.(\fz e8 | d f e d) |
   cis4 r8 a(\p | cis) cis( e) e( | g4) r8 a,( | cis) cis( e) e( | g4) r8 a,( | cis) cis\tcresc( e g) | bes2~ | 
   bes4\fermata r8 \fermata
   
@@ -202,12 +202,12 @@ clarinet_iv = \relative c'' {
   fis4( g16 fis e fis ) | a8. d,16 e( d cis d) | e8-. e-. fis16( e d e) | fis4( d8) d |
   e8 e fis16( e d e) | fis8. d16 e-. fis-. g-. a-. | b8.(\fz a16) g( fis g b) | 
   a8. d,16  e-. fis-. g-. a-. | b8.(\fz a16) g( fis g b) | a4 gis16(\p a b a) |
-  g-. e( a g) fis( d) a'-. a-. | g-. e( a g) fis( d) a'-. a-. | g(\fz a) b-. a-. g-. fis-. e-. d-. | cis4 r |
+  g!-. e( a g) fis( d) a'-. a-. | g-. e( a g) fis( d) a'-. a-. | g(\fz a) b-. a-. g-. fis-. e-. d-. | cis4 r |
   r4 r8 d16\p-. d-. | d( b) e-. e-. e( b) r8 |
   r4 r8 fis'16-.\tcresc fis-. | fis( d) g-. g-. g( d) a'( d,) | b'8-.\f b(\trill c) c-. |b8-. b(\trill c) c-. |
   b16(\p c b c) b( c a b) | g( a g a) g( a fis g) | e( fis e fis) e( fis d e) | 
   c8(\< d16 e fis g a b) | c2~\f\> | c8\p r b r | bes r a r |
-  aes2~\f\> | aes2 | a4(\pp g8 fis) | e16( dis) fis( e) g( fis) a( g) | b4(\fz a8 g) |
+  aes2~\f\> | aes2 | a!4(\pp g8 fis) | e16( dis) fis( e) g( fis) a( g) | b4(\fz a8 g) |
   fis4\p e16( fis g) e-. | d( e fis) d-. cis( d e) cis-. | d8 r r4 |
   e16(\pp cis) g'-. g-.  e16( cis) g'-. g-. | fis8 r r4 |
   \repeat unfold 2 {e16( cis) g'-. g-. }

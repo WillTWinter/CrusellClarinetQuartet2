@@ -5,12 +5,12 @@ cello_i = \relative c {
   c4\f r g  r | c, r r2 | r4 c''-.(\p c-.) r r c-.( c-.) r r b-.( b-.) r r c-.( c-.) r | R1 |
   r2 r4 g,( | aes2.\> aes'4) | g-.\f g,-. r\fermata r  |
   
-  r4 c'_\pizz c r r c c r r b b r r c c r | r2 r4 b8._\arco b16 | c8. c16 bes8. bes16 aes8. aes16  e8. e16 | 
+  r4 c'_\pizz c r r c c r r b b r r c c r | r2 r4 b8._\arco b16 | c8. c16 bes!8. bes16 aes8. aes16  e8. e16 | 
   f2.\fz\>( fis4) | g2.\p r4 g2. r4 aes2.\fz r4 | aes1(\p | g2)(->ees4) bes-. | f'2(-> d4) bes-.| g'2(->\tcresc ees4) bes-. |
   f'2(-> d4) bes-. | ees1~\p | ees | ees,~ ees | d4.\f d8 f4-. bes-. | d-. f2-> \appoggiatura bes,16 aes8( g16 aes) |
   g4. g8 bes4-. ees-. |  g bes2-> \appoggiatura ees,16 des8( c16 des) | c4.\p c8 ees4( aes) |
   c( ees aes, c) | f,-. aes( bes d) | ees,-. g(aes c) | d,-. f( g bes) | c,-. ees( f aes) | 
-  bes,-. d(ees g) | aes2.(-> g4) | f-.\p d( ees) c( | b) c( g aes) bes2.-> bes4 | ees, r r2 | ees'4\p r r2 | 
+  bes,-. d(ees g) | aes2.(-> g4) | f-.\p d( ees) c( | b) c( g aes) bes!2.-> bes4 | ees, r r2 | ees'4\p r r2 | 
   \repeat unfold 3 { ees,4 r r2 | ees'4 r r2} | ees,4 r r bes' | ees r r bes ees r r2 | R1*2 | 
   
   r4 bes'( f d) | ees-. f-. g2\fz | aes4-. bes-. c2~\fz | c4 c2-> c4~-> | c a(\< bes c) | bes2\f r | bes4 r r2 |
@@ -32,7 +32,7 @@ cello_i = \relative c {
   g2\fz d4 b | g'2\fz ees4 c | g'2\fz d4 b | g'2\fz ees4 c |
   g r aes'4.\ff g8 | \appoggiatura f8 es4 d8 es \appoggiatura d8 c4 b8 c | b4-. g-. r\fermata r |
   
-  r4 c'-.(\p c-.) r r c-.( c-.) r r b-.( b-.) r r c-.( c-.) r | r2 r4 b8._\arco b16 | c8.\< c16 bes8. bes16 aes8. aes16  e8. e16 | 
+  r4 c'-.(\p c-.) r r c-.( c-.) r r b-.( b-.) r r c-.( c-.) r | r2 r4 b8._\arco b16 | c8.\< c16 bes!8. bes16 aes8. aes16  e8. e16 | 
   f2.\fz\>( fis4) | g2.\! r4 | g2.\p r4 | aes2.\( g4 | f2. d4 | ees2. b4\) c2( f) | g4 r g, r |
   c4^\pizz r r2 | c,4 r r2 | \repeat unfold 3 {c'4 r r2 | c,4 r r2} | c'4 r r g | c r r g| c r r2 | R1*2 |
   
@@ -55,7 +55,7 @@ cello_ii = \relative c {
   r4 \appoggiatura a,16 bes4\pp \appoggiatura a 16 bes4 | \repeat unfold 4 {r4 \repeat unfold 2{\appoggiatura a 16 bes4}} |
   c'8(\f b c8.) ees,16 f8. g16 | aes8( g aes8.) c,16 d8. ees16 | f2( fis4 | g8) b( c bes a aes | g) b( c bes a aes | g4) r r |
   R2. | c,4\p c' r | d, d' r | r b(-> g | c\p ees) r | r d(-> bes ees g) g,(->\p | aes c) g(-> | aes c) g(-> |
-  aes8\f g fis) a-. c-. fis,-. | g(aes g) f-. ees-. d-. | c4 r r | r4 r8 c8\ff aes'8. g16 | f4 r g | c, r
+  aes8\f g fis) a-. c-. fis,-. | g(aes! g) f-. ees-. d-. | c4 r r | r4 r8 c8\ff aes'8. g16 | f4 r g | c, r
   
   % TRIO
   r4 | r ees\p ees | f2 r4 | r d d | ees ees, r | r r ees | ees'2(\sf d4) | ees4\p f f, | bes r
@@ -88,11 +88,11 @@ cello_iii = \relative c {
   
   ees2.~\p | ees8 g bes ees,4 r8 | ees4.(\< d4.\!) | c4\p( g8 c4) r8 | aes4( c8 ees4) r8 | aes,4( c8 ees) r d(\f |
    ees f bes, c g aes) | bes r bes\p ees4 r8 | r8 r bes\p( aes'4 aes8) | g4( ees8 d) r bes( | ees) r c( f) r f,( |
-   bes) bes bes bes( c d) | ees2.~ | ees8 r bes8( ees) r bes( | ees\< f g aes a bes) | g(\> aes g f d ees) | 
+   bes) bes bes bes( c d) | ees2.~ | ees8 r bes8( ees) r bes( | ees\< f g aes a bes) | g(\> aes! g f d ees) | 
    aes,4\p r8 bes4.( | ees,8) r r r4. |
    
    r4. r4 bes''8\mf | g'4 g8 \grace g32 f8( ees f) | ees8-. ees16( d f d)  ees8-. ees16( d f d)  |
-   ees4.( f8\tcresc ees d)( | des\> c bes a aes g)\! | f4 aes,8 bes(\fz b c) | aes8 r bes\p ees ees ees |
+   ees4.( f8\tcresc ees d)( | des\> c bes a aes g)\! | f4 aes,8 bes(\fz b c) | aes8 r bes!\p ees ees ees |
    ees2.~ | ees4.~ ees8 ees ees | ees,2.( | ees'4.~) ees8 ees ees |
    ees2.~ | ees4.~ ees8 ees ees | ees,2.( | ees'4) r8 bes bes bes | ees4 r8 bes bes bes | 
    ees r bes(\pp ees,) r bes'( | ees,) ees' ees ees4 r8 |
@@ -118,7 +118,7 @@ cello_iv = \relative c {
   
   g16(ees) aes-. aes-. aes(d,) g-. g-. | g(c,) f-. f-. f( bes,) ees-. ees-. | aes,( g aes g aes g aes a) |
   bes8 bes' bes bes | bes16(\fz ces) bes-. bes-. bes8 bes, | \repeat unfold 3 {bes'16(\fz ces) bes-. bes-. bes8 bes, |}
-  c'8 c c c | \repeat tremolo 4 c8 | \repeat tremolo 4 g8 | \repeat tremolo 4 aes8\< |
+  c'!8 c c c | \repeat tremolo 4 c8 | \repeat tremolo 4 g8 | \repeat tremolo 4 aes8\< |
   \repeat unfold 2 {\repeat tremolo 4 aes8 |} g8\f g,16 g c8 ees | g8 g,16 g c8 ees | g4 r | R2 |
   
   ees4\p r | ees r bes r ees, r bes' r ees, r | ees'2~ ees2~ ees2 |
@@ -139,14 +139,14 @@ cello_iv = \relative c {
   c,8 r r g'(\f | ees) aes( d,) g( | c,) f( bes,) ees( | aes,16)( g aes g aes g aes a) |
   
   bes8 bes' bes bes | bes16(\fz ces) bes-. bes-. bes8 bes, | \repeat unfold 3 {bes'16(\fz ces) bes-. bes-. bes8 bes, |}
-  c'8\p c c c | \repeat tremolo 4 c8 | \repeat tremolo 4 g8 | \repeat tremolo 4 aes8 | \repeat tremolo 4 aes8\tcresc |
+  c'!8\p c c c | \repeat tremolo 4 c8 | \repeat tremolo 4 g8 | \repeat tremolo 4 aes8 | \repeat tremolo 4 aes8\tcresc |
   \repeat tremolo 4 aes8 | g8\f g,16 g c8 ees | g8 g,16 g c8 ees | g4 r | R2 |
   
   \key c \major
   c,4^\pizz r | c r g r c r g r c r | f,4.(^\arco a8 | c4) r  | f,4.( a8 | c4) r | b'8 b c r | b b c r |
   g2~\fz | g8 g,( a b) | c4.(\p e8) | f4.( fis8) | g4.(\tcresc gis8) | a4.( e8) | f16(\f c) f-. f-. e(c) e-. e-. |
-  f16( c) f-. f-. e(c) e-. e-. | f8 r r c'-.\p | d-. r r a-. | bes-. r r fis-. | g(\tcresc f e d) | c16(\f d e f g a bes c) |
-  cis8\p r d r | b r c r | a2~\fz\> a2 | g2~\pp g2 | g,4.(\fz gis8) | a8 r f\p r | g r g r |
+  f16( c) f-. f-. e(c) e-. e-. | f8 r r c'-.\p | d-. r r a-. | bes-. r r fis-. | g(\tcresc f! e d) | c16(\f d e f g a bes c) |
+  cis8\p r d r | b r c! r | a2~\fz\> a2 | g2~\pp g2 | g,4.(\fz gis8) | a8 r f\p r | g r g r |
   c,16\pp c' c, c' c, c' c, c' | \repeat unfold 3 {\repeat tremolo 4 {c,16 c'}} | c,8 r g'' r |
   c, r g' r | c, r g'\tcresc r | c, r g' r | c, r e,16(\ff c) g'( e) | c'( g) e'( c) g'8 g, | c g c g | c r16 c, c8 r16 c | c4 r
   

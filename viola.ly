@@ -77,7 +77,7 @@ viola_ii = \relative c' {
   % REPEAT
   \triplet{ bes'8\f c bes | aes g f ees d c bes c aes | g bes ees g bes aes g aes g |
    f ees d c bes aes g f ees } | d4 r r | r <bes' g'>4\p 4 | <bes aes'>2 r4 | r <bes f'>4 4 | <bes g'>2 r4 |
-  ees2.~ | ees4\<( f ges | g2)\p \triplet {d8( f aes)} | g4 r
+  ees2.~ | ees4\<( f ges | g!2)\p \triplet {d8( f aes)} | g4 r
 }
 
 viola_iii = \relative c' {
@@ -150,7 +150,7 @@ viola_iv = \relative c' {
   
   <ees bes'>2~\p <ees bes'>2 | \repeat unfold 2 {<d bes'>( | <ees bes'>) }| ees2 |
   g,16( bes ees d c bes aes g) | aes8 ees'4 ees8~ | ees g4-> ees8~ | ees\tcresc ees4 ges8~ | ges ges4 ges8 |
-  g16(\f bes g bes) g( bes g bes) | g4 r | r8 b,( c d | ees f g) r |r8 b,( c d | ees f g) c | c2~ | c8 f,4 f8~ |
+  g!16(\f bes g bes) g( bes g bes) | g4 r | r8 b,( c d | ees f g) r |r8 b,( c d | ees f g) c | c2~ | c8 f,4 f8~ |
   f8 d,(\fz ees f) | g( aes bes) bes-. | aes e(\fz f g) | aes( bes c des) | c ees4\p( f8 | ges f ees des) |
   
   c8 ees4( f8 | ges f ees des) | c4 r | R2 | r8 ees-.(\f\> ees-. ees-. | ees-. ees-. ees-. ees-.) |
@@ -173,7 +173,7 @@ viola_iv = \relative c' {
   c2~ | c8-. e,( g c) | c2~ | c4 r | g'8 g g r | g g g r | b4\f r | g16( a) b-. a-. g-. f-. e-. d-. |
   c8\p e4 g8( | a) a4 a8( b) b4 b8( c4) r8 <c, c'>8~\f | <c c'>8 <c c'>4 <c c'>8~ |<c c'>8 <c c'>4 <c c'>8~ |
   <c c'>8  r r e-.\p | f-. r r c-. | d-. r r a-. | bes(\tcresc a g f) | e16(\f f g a bes c d e) |
-  g8\p r f r | d r e r | c4(\fz d8\> ees) | c4(\fz d8\> ees) | e4(\pp d8 c) | b8( c d e) | f4(-> e8 b) |
+  g8\p r f r | d r e r | c4(\fz d8\> ees) | c4(\fz d8\> ees) | e!4(\pp d8 c) | b8( c d e) | f4(-> e8 b) |
   c r f, r | g r f r | e16(\p c) g'-. g-. e16( c) g'-. g-. | aes2( |g16)( e) g-. g-. e16( c) g'-. g-. | aes2( |
   g8) r <g' b> r | <g c>\tcresc r <g b> r |<g c> r <g b> r |<g c>\f r <g b> r |
   <g c> r e,16(\ff c) g'( e) | c'( g) e'( c) g'8-. g16 g | g g g g g g g g | g8 r16 c,16 c8 r16 c16 | c4 r4
