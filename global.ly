@@ -14,6 +14,7 @@ tcresctext = \markup{\normal-text \italic cresc.}
 tcresc = #(make-dynamic-script tcresctext )
 tdecresctext = \markup{\normal-text \italic decresc.}
 tdecresc = #(make-dynamic-script tdecresctext )
+fthenp = \markup{\concat {\dynamic f " (2" \char ##x00BA " " \dynamic p ")"}}
 
 % Triplets
 triplet = #(define-music-function (note) (ly:music?)
@@ -50,7 +51,6 @@ barFermata = {
   \once \set Staff.caesuraTypeTransform = ##f
   \caesura ^\fermata
 }
-
 
 markings_i = {
   \set Score.rehearsalMarkFormatter = #format-mark-circle-numbers

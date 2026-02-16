@@ -160,11 +160,11 @@ clarinet_iv = \relative c'' {
   f) bes( e,) a( | d,) g4 f8 | e-. e-. \grace f32 e16( d e f) | d4 r | R2 * 7 | r4 r8
   
   %REPEAT
-  a'16-. a-. | a( gis) a-. a-. a( bes) a-. g-. | f(g) e(f) d(f) e-. d-. | cis(e) a-. g-. g(f) e-. d-. | cis( d) e-. cis-. a8 a'16( g) |
+  a'16-._\fthenp a-. | a( gis) a-. a-. a( bes) a-. g-. | f(g) e(f) d(f) e-. d-. | cis(e) a-. g-. g(f) e-. d-. | cis( d) e-. cis-. a8 a'16( g) |
   f(a) a-. a-. a-. e( a g) | f(g) e(f) d-. f( g f) | e(bes') g-. e-. d(f) e-. cis-. | d4 r8
   
   %REPEAT
-  cis16( d) | e( g f e d cis d) e-. | f( a g f e d e) f-. | g( bes a) g-. g(f) e-. d-. | cis( d) e-. cis-. a8 a'16-. a-. |
+  cis16(_\fthenp d) | e( g f e d cis d) e-. | f( a g f e d e) f-. | g( bes a) g-. g(f) e-. d-. | cis( d) e-. cis-. a8 a'16-. a-. |
   a(f) bes-. bes-. bes(e,) a-. a-. | a(d,) g-. g-. g(e) f-. f-. | f(e) g-. e-. d(cis) e-. cis-. |
   d4 r8 % FIRST TIME BAR
   d4 r4 | % SECOND TIME BAR
