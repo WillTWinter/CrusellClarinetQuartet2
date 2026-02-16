@@ -69,7 +69,7 @@ violin_ii = \relative c'' {
   
   d'8.\f c16 | b4. g8 b8. d16 | d4(-> c8) c g'8. f16 | e4. c8 e8. g16 | g4(-> f8) aes,8-.(\p aes-. aes-.) |
   \repeat unfold 2 {\repeat tremolo 6 aes8-.} | aes(\pp bes, aes' bes, aes' bes,) |
-  \repeat unfold 2 {g'( bes, g' bes, g' bes,) |} aes'( bes, aes' bes, aes' bes,) 
+  \repeat unfold 2 {g'( bes, g' bes, g' bes,) | aes'( bes, aes' bes, aes' bes,) }
   g'2\f bes4~|bes aes8. ees16 f8. g16 | aes2 a4| g8 d'( ees e f fis) |
   g d( ees e f fis) | g4 r2 | R2. |
   
