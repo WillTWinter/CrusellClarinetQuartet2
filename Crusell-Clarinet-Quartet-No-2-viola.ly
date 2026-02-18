@@ -7,12 +7,13 @@
 \paper_fields
 \paper {
   page-breaking = #ly:page-turn-breaking
-  first-page-number = 2  % Need to start on page 2 to avoid impossible page turns
 }
 \header_fields
 \header {
    instrument = \violaName
 }
+
+\pageBreak % Need to start on page 2 to avoid impossible page turns
 
 \score {
   \score_header_i

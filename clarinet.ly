@@ -137,7 +137,7 @@ clarinet_iii = \relative c'' {
   
   r4. r4 c8\p | bes'4 bes8 \grace bes32 a8( g f) | e( f g) c,( d e)  |f8-. \grace g32 f16( e f g) aes4\fz b,8 | 
   c\tdecresc c c c( d16 e f g) |
-  a4\p a8 \grace a32 g8( f g) | f4( a16 g f8) r c | a'4 a8\< \grace a32 g8 fis16\> g a g\! | f!4 a16( g f8) r f( |
+  a!4\p a8 \grace a32 g8( f g) | f4( a16 g f8) r c | a'4 a8\< \grace a32 g8 fis16\> g a g\! | f!4 a16( g f8) r f( |
   e f d) c r f(| e f d) c r bes'\f( | a\< bes g) f4\!\fz d8 | c(\p bes g) f r c' |
    g'8.( fis16 a g) f( e d) c-. d-. e-. | f( c b c d a') g-. c,( e g c bes) | bes( a g f e f) e( g c, e d b) |
    c4 r8 r4 c8\p | a'4 a8 \grace a32 g8( f g) | f8-. f16( e g e) f8-. f16( e g e) | f4.( g8\tcresc f e) |

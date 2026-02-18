@@ -6,7 +6,7 @@ cello_i = \relative c {
   r2 r4 g,( | aes2.\> aes'4) | g-.\f g,-. r\fermata r  |
   
   r4 c'_\pizz c r r c c r r b b r r c c r | r2 r4 b8._\arco b16 | c8. c16 bes!8. bes16 aes8. aes16  e8. e16 | 
-  f2.\fz\>( fis4) | g2.\p r4 g2. r4 aes2.\fz r4 | aes1(\p | g2)(->ees4) bes-. | f'2(-> d4) bes-.| g'2(->\tcresc ees4) bes-. |
+  f2.\fz\>( fis4) | g2.\p r4 g2. r4 aes2.\fz r4 | aes1(\p-> | g2)(ees4) bes-. | f'2(-> d4) bes-.| g'2(->\tcresc ees4) bes-. |
   f'2(-> d4) bes-. | ees1~\p | ees | ees,~ ees | d4.\f d8 f4-. bes-. | d-. f2-> \appoggiatura bes,16 aes8( g16 aes) |
   g4. g8 bes4-. ees-. |  g bes2-> \appoggiatura ees,16 des8( c16 des) | c4.\p c8 ees4( aes) |
   c( ees aes, c) | f,-. aes( bes d) | ees,-. g(aes c) | d,-. f( g bes) | c,-. ees( f aes) | 
@@ -54,7 +54,7 @@ cello_ii = \relative c {
   r4 | r8. g,16(\f g'4 f | ees8.) g16-. ees'4( des | c2) c,4 | f8. c'16 f4 r| r8. bes,16(\p\> ces2)\! |  r8. bes16(\p\> ces2)\! |
   r4 \appoggiatura a,16 bes4\pp \appoggiatura a 16 bes4 | \repeat unfold 4 {r4 \repeat unfold 2{\appoggiatura a 16 bes4}} |
   c'8(\f b c8.) ees,16 f8. g16 | aes8( g aes8.) c,16 d8. ees16 | f2( fis4 | g8) b( c bes a aes | g) b( c bes a aes | g4) r r |
-  R2. | c,4\p c' r | d, d' r | r b(-> g | c\p ees) r | r d(-> bes ees g) g,(->\p | aes c) g(-> | aes c) g(-> |
+  R2. | c,4\p c' r | d, d' r | r b(-> g | c\p ees) r | r d(-> bes! ees g) g,(->\p | aes c) g(-> | aes c) g(-> |
   aes8\f g fis) a-. c-. fis,-. | g(aes! g) f-. ees-. d-. | c4 r r | r4 r8 c8\ff aes'8. g16 | f4 r g | c, r
   
   % TRIO

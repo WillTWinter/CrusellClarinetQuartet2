@@ -21,7 +21,7 @@ score_header_ii = \header {
 }
   
 score_header_iii = \header {
-  piece = \markup{\large \bold "Pastoralle" }
+  piece = \markup{\large \bold "Pastorale" }
   opus = ##f
 }
   

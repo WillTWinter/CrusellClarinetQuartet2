@@ -15,6 +15,7 @@
   indent = 40\mm
   short-indent = 10\mm
 }
+#(set-global-staff-size 16)
 
 \score {
   \score_header_i

@@ -9,7 +9,7 @@ viola_i = \relative c' {
   r4 ees,^\pizz ees r | r f f r | r d d r | r c c r | r f8.^\arco f16 ees4 d8. d16 | c8. c16 c8.\tcresc c16 c8. c16 c8. c16 |
   c2.\fz\> c4 | g2.\p r4 | d'2. r4 | d2.\fz r4 |d1(\p | ees8) bes( g bes) g(bes ees bes) | \repeat unfold 2 { aes8( bes d bes)} |
   g8(\tcresc bes ees bes)g8( bes ees bes) |\repeat unfold 2 { aes8( bes d bes)} | g2\p( bes4 des) | c( ees aes, c) |
-  g8( aes bes c) des2-> | c4( ees aes, c) | \triplet {<bes d>8 <bes d> <bes d> \ttrem <bes d> \ttrem <bes d> \ttrem <bes d>} |
+  g8( aes bes c) des2-> | c4( ees aes, c) | \triplet {<bes d!>8 <bes d> <bes d> \ttrem <bes d> \ttrem <bes d> \ttrem <bes d>} |
   \repeat unfold 2 \tuplet 6/4 {\repeat tremolo 6 <bes d>8} | \repeat unfold 4 \tuplet 6/4 {\repeat tremolo 6 <bes ees>8} | 
   <aes ees'>4 r r2 |
   
@@ -27,7 +27,7 @@ viola_i = \relative c' {
   r des( c) r | r g( aes) aes\fz | aes2.( g8 bes) | bes4-.\f <ees, bes'>-. r\fermata r|
   
   r2 r4 aes\p | c f2 f4 | bes,2. bes4 | aes2. r4 | r ees'( des) r | r des( c) f~ | f g4( aes) ees8( aes) | aes4-> f8( bes) bes4 g |
-  \repeat unfold 2 { f2~ f8( ees f ees) } | f2~\tcresc f8( ees f ees) | f1-> |
+  \repeat unfold 2 { f2~ f8( e f e) } | f2~\tcresc f8( e f e) | f1-> |
   \triplet {\ttrem {<c e>8\f} \ttrem{<c e>8}} \tuplet 6/4 {\repeat tremolo 6 <c e>8} \repeat unfold 2 \tuplet 6/4 {\repeat tremolo 6 <c e>8}
   \repeat unfold 3 \tuplet 6/4 {\repeat tremolo 6 <c f>8} \triplet{\ttrem{<ees ges>8} \ttrem {<c ees>8}} |
   
@@ -150,7 +150,7 @@ viola_iv = \relative c' {
   
   <ees bes'>2~\p <ees bes'>2 | \repeat unfold 2 {<d bes'>( | <ees bes'>) }| ees2 |
   g,16( bes ees d c bes aes g) | aes8 ees'4 ees8~ | ees g4-> ees8~ | ees\tcresc ees4 ges8~ | ges ges4 ges8 |
-  g!16(\f bes g bes) g( bes g bes) | g4 r | r8 b,( c d | ees f g) r |r8 b,( c d | ees f g) c | c2~ | c8 f,4 f8~ |
+  g!16(\f bes g bes) aes( bes aes bes) | g4 r | r8 b,( c d | ees f g) r |r8 b,( c d | ees f g) c | c2~ | c8 f,4 f8~ |
   f8 d,(\fz ees f) | g( aes bes) bes-. | aes e(\fz f g) | aes( bes c des) | c ees4\p( f8 | ges f ees des) |
   
   c8 ees4( f8 | ges f ees des) | c4 r | R2 | r8 ees-.(\f\> ees-. ees-. | ees-. ees-. ees-. ees-.) |

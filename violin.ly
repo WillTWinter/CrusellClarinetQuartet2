@@ -143,14 +143,14 @@ violin_iv = \relative c'' {
   c4.(-> b8 | bes a aes g) | f-. f-. f16( g f ees) | d8 bes16( c d ees f g) | aes4~\fz aes16 g f ees | 
   d8 d d16 ees f g | aes4~\fz aes16 g f ees | d8 d d16( ees) f-. d-. | ees2~\p | ees~ ees |
   ees16( d) ees-. ees-. ees16( d) ees-. ees-.  | ees( d ees\tcresc d) ees( d ees e) | f( e f e f e f fis) |
-  g(\f g,) g'-. g-. f( ees) d-. c-. | b( d) g-. g-. f( ees!) d-. c-. | b4 r | R2 |
+  g(\f g,) g'-. g-. f!( ees!) d-. c-. | b( d) g-. g-. f( ees!) d-. c-. | b4 r | R2 |
   
   r8 <g, ees'>8\p 8 8 | r <g ees'>8 8 8 | r <aes d>8 8 8 | r <g ees'>8 8 8 | r <aes d>8 8 8 | r <g ees'>8 8 8 |
   ees'4.( aes8) | g4 aes16( g f ees) | ees4.( aes8) | g8-. ees16( g) bes ees g bes | a8\f a bes16 a g f |
   bes a c bes a g f ees | ees d g f f ees d c | bes4 r | R2*5 |
   
   g'4^\solo\p aes16( g fis g) | bes8. ees,16 f!( ees d ees) | f8-. f-. g16( f ees f) | g4( ees8) ees |
-  f f g16( f ees f) | g8. ees16 f-.( g-. aes-. bes-.) | c8.\fz bes16  aes( g aes c) | bes8. ees,16 f-. g-. aes-. bes-. |
+  f f g16( f ees f) | g8. ees16 f-.( g-. aes-. bes-.) | c8.\fz bes16  aes( g aes c) | bes8. ees,16-. f-. g-. aes-. bes-. |
   c8.\fz bes16  aes g aes c | bes4~ bes16 ees,-. f-. g-. | aes8-. aes(\tcresc a) a( | bes)\< bes( c) c( |
   ees,4\!) \grace g32 f16( ees f g) | ees4 r | R2*3 |
   
