@@ -63,8 +63,7 @@ score_layout = \layout {
   \compressEmptyMeasures
 }
 
-% Increase the minimum stem lengh for beamed notes
-% defaults are 3.26, 3.5, 3.6 which can lead to 16th notes having only 1 staff space between note head and beam
-% (length seems to apply to total length of stem, so the extra beams require the stem length to be increased)
-% 3.26 4.4 4.9 seems to make the 16th notes OK
-beamLengths = \override Stem.details.beamed-extreme-minimum-free-lengths = #'(1.5)
+% Increase the extreme minimum stem lengh for beamed notes
+% defaults are 2 (1/8th notes) 1.25 (1/16th notes and shorter) which can 
+% lead to 16th notes being a bit too close to the beam
+beamLengths = \override Stem.details.beamed-extreme-minimum-free-lengths = #'(2.0 1.5)
