@@ -18,7 +18,7 @@ clarinet_i = \relative c'' {
   cis2( d4) c( | bes) c( a) bes~ | bes a \appoggiatura g8 f4 e8 d | c( b c d c bes a g) |
   f4 r r2 | R1 * 3| 
   
-  r2 r4 c'''8(\p a) | g4 \appoggiatura fis16 g4 \appoggiatura fis16 g4 a8( g) | f!4.( a8 g f e d) |
+  r2 r4 c'''8(\p a) | g4 \shortGraceSlur \appoggiatura fis16 g4 \shortGraceSlur \appoggiatura fis16 g4 a8( g) | f!4.( a8 g f e d) |
   c4-. g'( e) c'( | a8) r c,( d e f g e) | f8( c) d-. e-. f-. g-. a-. bes-. | a( c) f,-. a-. d,-. g( bes a) | 
   g( bes) e,-. g-. c,-. f( a g) | f( a) d,-. f-. bes,-. e( g f) | e4 r bes'2\sfz | bes8(\> a) a( g) g( f) f( e)\! |
   e( d) d( c) c( b) f'-. d-. | c( b) f'-.\fz d-. c( b) f'-.\fz d-. | c( b) f'-. d-. f-. c-. f-. b,-. |
@@ -37,8 +37,8 @@ clarinet_i = \relative c'' {
   ees4.(\p ees8 g4 bes) | bes4~ \triplet {bes8 c bes} a2~ | a4~ \triplet{a8 bes a} g2~ | 
   g4~ \triplet{ g8 a g} fis4( \triplet{fis8 g a)} | \triplet{g8( fis g) a( g a)} bes4 \triplet {e,8( d e)
   f!( e f) g( f g)} a4 a | a2.(\< gis4 | a)\! r a4.(\sfz g!8) |
-  \appoggiatura g8 f4( e8 f) \appoggiatura e8 d4( cis8 d) | cis4 r a'4.(\sfz g8) |
-  \appoggiatura g8 f4( e8 f) \appoggiatura e8 d4( cis8 d) | cis4 r r2 | R1 | r2 r4\fermata a\p |
+  \shortGraceSlur \appoggiatura g8 f4( e8 f) \shortGraceSlur \appoggiatura e8 d4( cis8 d) | cis4 r a'4.(\sfz g8) |
+  \shortGraceSlur \appoggiatura g8 f4( e8 f) \shortGraceSlur \appoggiatura e8 d4( cis8 d) | cis4 r r2 | R1 | r2 r4\fermata a\p |
   
   d2.( f4) | e2.( g4) | bes,2( a8) cis e g | g2( f4) a8. a16 | a4 cis,8.\tcresc cis16 d4 e8. e16 |
   f8. f16 fis8. fis16 g8. g16 a8. a16 | bes4.\fz( a8 g f e d) | d2( cis4) d | d2(\p cis4) d |
@@ -59,7 +59,7 @@ clarinet_i = \relative c'' {
     \once \hideNotes
     cis8\turn \noBeam
   }
-  d4.( f8) \appoggiatura g8 f4( e8 d) | cis4( e a, cis) | d8( f e) d-. cis-. e( a g) |
+  d4.( f8) \shortGraceSlur \appoggiatura g8 f4( e8 d) | cis4( e a, cis) | d8( f e) d-. cis-. e( a g) |
   f( a) f-. d-. cis-. e( a g) | f( a) d,-. f-. bes-. e,( g f) | e( g) cis,-. e-. a-. d,( f e) |
   d( f) bes,-. d-. g-. cis,( e d) | cis8 r e,( g) bes( cis e-. g-.) | bes-. r fis( g) a( bes) fis( g) |
   e( f!) cis( d) a( bes g) e | d( f a d) f(\tcresc a d cis) | c( b bes a aes g fis f) | 

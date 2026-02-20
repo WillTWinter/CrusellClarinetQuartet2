@@ -37,7 +37,7 @@ viola_i = \relative c' {
   \repeat unfold 2 {\tuplet 6/4 {\repeat tremolo 6 <c ees>8}}
   \repeat unfold 2 {\tuplet 6/4 {\repeat tremolo 6 <b d>8}} 
   \repeat unfold 2 {\tuplet 6/4 {\repeat tremolo 6 <c ees>8}} |
-  <b d>4 r aes'4.\ff g8 | \appoggiatura f8 ees4 d8 ees \appoggiatura d8 c4 b8 c | b4-. g r\fermata r |
+  <b d>4 r aes'4.\ff g8 | \shortGraceSlur \appoggiatura f8 ees4 d8 ees \shortGraceSlur \appoggiatura d8 c4 b8 c | b4-. g r\fermata r |
   
   r4 ees'-.(\p ees-.) r r f-.( f-.) r r d-.( d-.) r r c-.( c-.) r | r f8.\tcresc f16 ees4 d8. d16 |
   \repeat unfold 4 { c8. c16 } | c2.\fz c4 | g2. r4 g2.\p r4 |

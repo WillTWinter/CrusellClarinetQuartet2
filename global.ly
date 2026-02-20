@@ -52,6 +52,8 @@ barFermata = {
   \caesura ^\fermata
 }
 
+shortGraceSlur = {\shape #'((0 . 0) (-0.25 . 0) (-0.5 . 0) (-0.75 . 0)) Slur}
+
 markings_i = {
   \set Score.rehearsalMarkFormatter = #format-mark-circle-numbers
 

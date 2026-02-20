@@ -8,7 +8,7 @@ violin_i = \relative c'' {
   r b( c) r | r aes( g) g8( f) | ees(\< d c b) c4. c8 | d4-.\f <g, d'> r\fermata r |
   
   r4 g'_\pizz g r | r aes aes r | r f g r | r g g r | r aes8._\arco aes16 g4 g8. g16 | g8. g16 g8.\tcresc g16 aes8. aes16 bes8. bes16 |
-  aes2.(\fz\> a4) | d,2.\p r4 | f2. r4 | f2.\fz r4 | f1(\p |\appoggiatura ees16) bes'2~ bes8 c d ees | ees4( d f) r | 
+  aes2.(\fz\> a4) | d,2.\p r4 | f2. r4 | f2.\fz r4 | f1(\p |\shortGraceSlur \appoggiatura ees16) bes'2~ bes8 c d ees | ees4( d f) r | 
   bes,2~\tcresc bes8 g' f ees | ees4( d f) r | bes,2(\p g4 ees) | aes2 r | bes( g4 ees) | aes2 r | 
   
   <d, bes' f'>2\f d'4-. bes-. | aes-. f-. d-. bes-. | <ees bes' bes'>2 g'4-. ees-. | des-. bes-. g-. ees-.  | aes2(\p ees4 c) |
@@ -38,13 +38,13 @@ violin_i = \relative c'' {
   
   g\f g' g \ttrem g b, g' g d g g | g, g' g \ttrem g c, g' g ees g g |
   g, g' g \ttrem g b, g' g d g g| g, g' g \ttrem g c, g' g ees g g} | g,4 r aes'4.\ff g8 | 
-  \appoggiatura f8 ees4 d8 ees \appoggiatura d8 c4 b8 c | b4 <g, d' b' g'> r\fermata r |
+  \shortGraceSlur \appoggiatura f8 ees4 d8 ees \shortGraceSlur \appoggiatura d8 c4 b8 c | b4 <g, d' b' g'> r\fermata r |
   
   
   r4 g'\p g r | r aes aes r | r f g r | r g g r | r aes8.\tcresc aes16 g4 g8. g16 | g8. g16 g8. g16 aes8. aes16 bes8. bes16 |
   aes2.\fz\> a4 | d,2.\p r4 | d2. r4 |
   
-  f2.( g4 | c,2. ces4 | bes2. aes4) | g2( aes) | g4 r b r | c r r g''8( ees) | d4 d d ees8( d) | c4. g8 \appoggiatura f'8 ees4( d8 c) |
+  f2.( g4 | c,2. ces4 | bes2. aes4) | g2( aes) | g4 r b r | c r r g''8( ees) | d4 d d ees8( d) | c4. g8 \shortGraceSlur \appoggiatura f'8 ees4( d8 c) |
   b4-. d( g,) g'( | ees2 c4) g8( ees) | d4 d d ees8( d) | c4. ees8 \appoggiatura f8 ees4( d8 c) | b4( d g, f') | ees r r b'-. |  c-. r r b-. |
   c-. aes( f d | b) g'( ees c | aes) r r2 |
   
@@ -84,7 +84,7 @@ violin_ii = \relative c'' {
   % REPEAT
   r4 | <bes, f' d'>4\f r < bes f' d'> | < bes ees ees'> r \triplet {bes''8 c bes | aes g f ees d c bes aes g }|
   f4 r bes\p | g'4.( fis8 g8.) ees16-! | ees4 d8 r bes4 | aes'4.( g8 aes8.) f16-! | f4( ees8) r bes4 | bes'2( b4) |
-  c2(\< \grace{ d16 c b c} d8 ees) | ees,2\p \appoggiatura g8 f4 | ees r
+  c2(\< \grace{ d16 c b c} d8 ees) | ees,2\p \shortGraceSlur \appoggiatura g8 f4 | ees r
 }
 
 violin_iii = \relative c'' {

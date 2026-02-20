@@ -30,7 +30,7 @@ cello_i = \relative c {
   aes,-. c( des f) |
   g,-. bes( c2~) | c( f,4) r | r2 r4 \triplet {d'8(\tcresc ees d) | c( d c bes c bes)} aes4 aes' |
   g2\fz d4 b | g'2\fz ees4 c | g'2\fz d4 b | g'2\fz ees4 c |
-  g r aes'4.\ff g8 | \appoggiatura f8 es4 d8 es \appoggiatura d8 c4 b8 c | b4-. g-. r\fermata r |
+  g r aes'4.\ff g8 | \shortGraceSlur \appoggiatura f8 es4 d8 es \appoggiatura d8 c4 b8 c | b4-. g-. r\fermata r |
   
   r4 c'-.(\p c-.) r r c-.( c-.) r r b-.( b-.) r r c-.( c-.) r | r2 r4 b8._\arco b16 | c8.\< c16 bes!8. bes16 aes8. aes16  e8. e16 | 
   f2.\fz\>( fis4) | g2.\! r4 | g2.\p r4 | aes2.\( g4 | f2. d4 | ees2. b4\) c2( f) | g4 r g, r |
