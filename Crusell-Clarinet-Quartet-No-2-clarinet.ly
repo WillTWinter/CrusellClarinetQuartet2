@@ -18,6 +18,7 @@
   \score_layout
   \new Staff \with {
     \consists Page_turn_engraver
+    \beamLengths
     instrumentTransposition = \clarinetTransposition
   } << 
     \set Staff.minimumPageTurnLength = #(ly:make-moment 4/2)
@@ -32,6 +33,7 @@
   \score_layout
   \new Staff \with {
     \consists Page_turn_engraver
+    \beamLengths
     instrumentTransposition = \clarinetTransposition
   } << 
     \set Staff.minimumPageTurnLength = #(ly:make-moment 3/2)
@@ -46,6 +48,7 @@
   \score_layout
   \new Staff \with {
     \consists Page_turn_engraver
+    \beamLengths
     instrumentTransposition = \clarinetTransposition
   } << 
     \set Staff.minimumPageTurnLength = #(ly:make-moment 3/2)
@@ -60,6 +63,7 @@
   \score_layout
   \new Staff \with {
     \consists Page_turn_engraver
+    \beamLengths
     instrumentTransposition = \clarinetTransposition
   } << 
     \set Staff.minimumPageTurnLength = #(ly:make-moment 2/2)

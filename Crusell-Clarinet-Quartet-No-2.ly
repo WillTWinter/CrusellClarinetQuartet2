@@ -25,6 +25,7 @@
       instrumentName = \clarinetName
       shortInstrumentName = \clarinetShortName
       instrumentTransposition = \clarinetTransposition
+      \beamLengths
     } << 
       \markings_i 
       \clarinet_i
@@ -34,6 +35,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violinName
       shortInstrumentName = \violinShortName
+      \beamLengths
     } << 
       \markings_i
       \violin_i 
@@ -43,6 +45,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violaName
       shortInstrumentName = \violaShortName
+      \beamLengths
     } << 
       \markings_i
       \viola_i 
@@ -52,6 +55,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \celloName
       shortInstrumentName = \celloShortName
+      \beamLengths
     } << 
       \markings_i
       \cello_i 
@@ -68,6 +72,7 @@
       instrumentName = \clarinetName
       shortInstrumentName = \clarinetShortName
       instrumentTransposition = \clarinetTransposition
+      \beamLengths
     } << 
       \markings_ii 
       \clarinet_ii
@@ -77,6 +82,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violinName
       shortInstrumentName = \violinShortName
+      \beamLengths
     } << 
       \markings_ii
       \violin_ii
@@ -86,6 +92,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violaName
       shortInstrumentName = \violaShortName
+      \beamLengths
     } << 
       \markings_ii
       \viola_ii 
@@ -95,6 +102,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \celloName
       shortInstrumentName = \celloShortName
+      \beamLengths
     } << 
       \markings_ii
       \cello_ii 
@@ -111,6 +119,7 @@
       instrumentName = \clarinetName
       shortInstrumentName = \clarinetShortName
       instrumentTransposition = \clarinetTransposition
+      \beamLengths
     } << 
       \markings_iii
       \clarinet_iii
@@ -120,6 +129,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violinName
       shortInstrumentName = \violinShortName
+      \beamLengths
     } << 
       \markings_iii
       \violin_iii
@@ -129,6 +139,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violaName
       shortInstrumentName = \violaShortName
+      \beamLengths
     } << 
       \markings_iii
       \viola_iii 
@@ -138,6 +149,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \celloName
       shortInstrumentName = \celloShortName
+      \beamLengths
     } << 
       \markings_iii
       \cello_iii 
@@ -154,6 +166,7 @@
       instrumentName = \clarinetName
       shortInstrumentName = \clarinetShortName
       instrumentTransposition = \clarinetTransposition
+      \beamLengths
     } << 
       \markings_iv 
       \clarinet_iv
@@ -163,6 +176,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violinName
       shortInstrumentName = \violinShortName
+      \beamLengths
     } << 
       \markings_iv
       \violin_iv
@@ -172,6 +186,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \violaName
       shortInstrumentName = \violaShortName
+      \beamLengths
     } << 
       \markings_iv
       \viola_iv 
@@ -181,6 +196,7 @@
       \override InstrumentName.self-alignment-X = #RIGHT
       instrumentName = \celloName
       shortInstrumentName = \celloShortName
+      \beamLengths
     } << 
       \markings_iv
       \cello_iv 
